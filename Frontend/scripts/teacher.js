@@ -13,7 +13,8 @@ fetch(baseurl, {
     bag = data;
     console.log(bag);
     displaycard(data);
-  });
+  })
+  .catch((err) => console.log(err));
 
 function searchteacher() {
   let q = document.querySelector(".searchteacher").value;

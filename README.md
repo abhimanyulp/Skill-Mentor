@@ -1,13 +1,12 @@
-# Skill mentor  (tutor finding app)
-
-# Tutor Appointment Booking System
-Deployed Link of project: https://649036113722945443c6387d--spiffy-unicorn-2d615b.netlify.app/index.html
-
-![skillMentor](https://github.com/ujjwal1309/rainy-scissors-3404/assets/113464291/e6931305-dbcf-4579-8cdc-6de5ff0123ed)
+# Skill mentor 
 
 
+This project entails the development of a web-based appointment booking system tailored for a tutor. The system will empower users to seamlessly schedule appointments, access their booking history, and exercise control over their personal profiles. For administrative users, comprehensive functionalities will be provided, including the ability to oversee appointments, analyze appointment-related data, and effectively manage both user and teacher accounts.
 
-This project is a web-based appointment booking system for a Tutor. It allows users to book appointments, view their appointments, and manage their profiles. Admin users can manage appointments, view appointment data, and manage users,manage teachers.
+## Deployed Links
+
+[https://skill-mentor.netlify.app](https://skill-mentor.netlify.app)  **(Netlify)** \
+[https://skill-mentor.onrender.com](https://skill-mentor.onrender.com)  **(Render)**
 
 ### Table of Contents
 - Features
@@ -40,16 +39,16 @@ The Tutor Appointment Booking System uses the following technologies:
 ### pages
 
 1. Landing Page
-2. login and signup page
-3. tutor page 
-4. dashboard page
+2. Login & Signup Page
+3. Tutor Page 
+4. Dashboard Page
 
 ### Installation
 To install the Veterinary Appointment Booking System, follow these steps:
 
 1. Clone the repository:
 ```
- https://github.com/ujjwal1309/rainy-scissors-3404.git
+ https://github.com/abhimanyulp/Skill-Mentor.git
 ```
 
 2. Install the dependencies:
@@ -66,7 +65,7 @@ npm start server
 ### Usage
 To use the Veterinary Appointment Booking System, follow these steps:
 
-1. Open your web browser and go to http://localhost:4500
+1. Open your web browser and go to https://skill-mentor.netlify.app
 2. Navigate to the sign-up page and create an account.
 3. Log in to the system.
 4. Navigate to the tutors and book an appointment.
