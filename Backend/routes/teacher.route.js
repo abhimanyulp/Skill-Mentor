@@ -6,11 +6,13 @@ teacherRouter.get("/", async (req, res) => {
   res.send("welcome");
 });
 teacherRouter.get("/allteacher", async (req, res) => {
+  console.log("all teacher working")
   const Teachers = await TeacherModel.find();
   res.send(Teachers);
 });
 
 teacherRouter.post("/addteacher", async (req, res) => {
+  console.log("add teacher route working")
   let {
     teacherName,
     email,

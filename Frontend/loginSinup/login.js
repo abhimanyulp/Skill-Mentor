@@ -7,7 +7,7 @@ form.addEventListener("submit", (e) => {
   login(payload);
 });
 async function login(payload) {
-  const fetchedData = await fetch("https://tired-frog-cap.cyclic.app/user/login", {
+  const fetchedData = await fetch("https://skill-mentor.onrender.com/user/login", {
     method: "POST",
     headers: {
       "Content-type": "application/json",

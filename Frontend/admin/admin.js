@@ -42,7 +42,7 @@ async function getData() {
   
  
       try {
-          let res = await fetch("https://tired-frog-cap.cyclic.app/teacher/allteacher", {
+          let res = await fetch("https://skill-mentor.onrender.com/teacher/allteacher", {
               method: "GET",
               headers: {
                   "Content-Type": "application/json",

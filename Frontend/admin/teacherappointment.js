@@ -8,7 +8,7 @@ async function getData() {
   
  
       try {
-          let res = await fetch(`https://tired-frog-cap.cyclic.app/teacherSlots/${email}`, {
+          let res = await fetch(`https://skill-mentor.onrender.com/teacherSlots/${email}`, {
               method: "GET",
               headers: {
                   "Content-Type": "application/json",
@@ -86,7 +86,7 @@ let all_accept_btns = document.querySelectorAll(".accept")
 }
 
    function accept(id){
-    fetch(`https://alert-lime-bracelet.cyclic.app/update/${id}`,{
+    fetch(`https://skill-mentor.onrender.com/update/${id}`,{
         method:"PATCH",
         headers:{
           "Content-Type": "application/json",
@@ -104,7 +104,7 @@ let all_accept_btns = document.querySelectorAll(".accept")
     })
   }
   function reject(id){
-    fetch(`https://alert-lime-bracelet.cyclic.app/update/${id}`,{
+    fetch(`https://skill-mentor.onrender.com/update/${id}`,{
         method:"PATCH",
         headers:{
           "Content-Type": "application/json",

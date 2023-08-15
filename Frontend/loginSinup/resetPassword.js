@@ -19,7 +19,7 @@ async function resetPassword(newPass) {
       password: newPass,
     };
 
-    await fetch("https://alert-lime-bracelet.cyclic.app/reset", {
+    await fetch("https://skill-mentor.onrender.com/reset", {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",

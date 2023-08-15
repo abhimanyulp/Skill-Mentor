@@ -2,7 +2,7 @@ let btn = document.getElementById("btn1")
 
 btn.addEventListener("click",(event)=>{
     event.preventDefault()
-    console.log("jyoti")
+    console.log("test")
     let all_input = document.querySelectorAll(".add-form input")
    
     let obj={}
@@ -17,7 +17,7 @@ btn.addEventListener("click",(event)=>{
 async function addDoctor(obj){
     try {
         console.log(obj)
-       let adding_rqst=await fetch("https://tired-frog-cap.cyclic.app/teacher/add",{
+       let adding_rqst=await fetch("https://skill-mentor.onrender.com/teacher/add",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"

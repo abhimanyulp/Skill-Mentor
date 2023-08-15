@@ -1,4 +1,4 @@
-let baseurl = "https://tired-frog-cap.cyclic.app/teacher/allteacher";
+let baseurl = "https://skill-mentor.onrender.com/teacher/allteacher";
 
 
 let bag = [];
